@@ -1,0 +1,88 @@
+<header>
+  <span class="logo"></span>
+  <h3>{{setting "name"}}</h3>
+
+</header>
+
+<section data-main>
+
+	<p>Current date/time:</p>
+	<div>{{currDate}}</div><br/>
+	
+	<p>How many days out?</p><br/>
+	<input type="text" id="dataInput"><br/><br/>
+	<button type="submit" class="btn primary addTime">Check what day this is</button>
+
+
+</section>
+
+<!--<button class="btn primary" id="genTime">Find Epoch Time</button>-->
+
+<div id="testing"></div>
+
+<div style="background-color: grey"></div>
+<body>
+<hr>
+<h4>Epoch Times</h4>
+
+<!--Now and Clear Buttons-->
+<div class="nowclear">
+<a class='btn' id="genTime">Generate Time</a>
+<!--<a class='btn'>Clear</a>-->
+</div style="border:1px">
+<div>
+<h4>{{timeObject}}</h4>
+</div>
+<!--Date fields-->
+
+<!--
+<div class="date">
+<table class="date">
+  <tr>
+    <td><input class="smallbox" type="text" name="Month"></td>
+    <td><input class="smallbox" type="text" name="Day"></td> 
+    <td><input class="smallbox" type="text" name="Year"></td>
+    <td><input class="smallbox" type="text" name="Hour"></td>
+    <td><input class="smallbox" type="text" name="Minute"></td>
+    <td><input class="smallbox" type="text" name="Second"></td>
+  </tr>
+  <tr>
+    <td id="month">M</td>
+    <td>D</td> 
+    <td>Y</td>
+    <td>H</td>
+    <td>M</td>
+    <td>S</td>
+  </tr>
+</table>
+</div>
+-->
+<!--
+<p class="clear"></p>
+<div class="clear">
+<a class='btn buttonDateInput'>Convert</a> 
+<input id="dateInput" type="text" name="<h4>{{timeObject}}</h4>">
+<p class="clear"></p>
+ </div>
+
+<p class="clear"></p>
+
+<p class="clear"></p>
+<p class="clear"></p>
+<a class='btn'>Convert </a> Enter Epoch Time<input type="text" name="Epoch Time">
+<h4>{{timeObject}}</h4>
+<p class="clear"></p>
+
+</div>
+-->
+
+
+</body>
+
+</section>
+<footer>
+
+  <a href="mailto:{{author.email}}">
+    {{author.name}}
+  </a>
+</footer>

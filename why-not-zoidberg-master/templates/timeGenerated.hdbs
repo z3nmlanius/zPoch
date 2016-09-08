@@ -1,0 +1,5 @@
+<div class="epoch">{{timeObject}}</div>
+
+<div class="epoch">{{dateOutput}}</div>
+<br />
+<button class="backToHome">Reset</button>

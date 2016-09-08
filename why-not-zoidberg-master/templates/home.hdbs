@@ -1,0 +1,10 @@
+	<h6>Requester Time: {{requestTimeObject}}</h6>
+	
+
+	<p>Current date:</p>
+	<div>{{currDate}}</div><br/>
+	
+	<p>How many days out?</p><br/>
+	<input type="text" id="dataInput"><br/><br/>
+	<button type="submit" class="btn primary addTime">Check what day this is</button>
+

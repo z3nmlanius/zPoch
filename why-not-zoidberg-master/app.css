@@ -1,0 +1,172 @@
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+
+
+
+body{
+	font-family: helvetica, serif;
+}
+
+.clear{
+	clear: both;
+  padding: 2px 0px 0px 0px;
+}
+
+/* Epoch Dates */
+
+td {
+	text-align: center;
+}
+
+div.nowclear{
+	margin: 10px 10px;
+}
+
+input {
+
+    display: inline;
+    padding-left: 5px;
+}
+
+input.smallbox {
+	max-width: 15px;
+
+}
+
+output {
+    display: inline;
+}
+
+div.date{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.toggle{
+    display:inline-block;
+    height:48px;
+    width:48px;
+    background:url("open.jpg");
+}
+.toggle:after{
+    content:"Open";
+    display:block;
+    height:48px;
+    line-height:48px;
+    width:88px;
+    margin-left:48px;
+}
+.toggle.expanded:after{
+     content:"Close";
+}
+.toggle.expanded {
+    background:url("close.jpg");
+}
+
+
+/* Button CSS */
+
+.btn, .btnhands
+{
+   border: 1px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#54C2FF), to(#3e779d));
+   background: -webkit-linear-gradient(top, #54C2FF, #3e779d);
+   background: -moz-linear-gradient(top, #54C2FF, #3e779d);
+   background: -ms-linear-gradient(top, #54C2FF, #3e779d);
+   background: -o-linear-gradient(top, #54C2FF, #3e779d);
+   background-image: -ms-linear-gradient(top, #54C2FF 0%, #3e779d 100%);
+   /*padding: 10.5px 21px;*/
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #ffffff;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+   .btnhands{
+    background-image: url("convertdown.png");
+    font-size: 1em;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    padding: 15px 50px;
+    font-size: 0;
+    text-indent: -200%;
+   }
+
+   .btnhands:hover{
+   	background: url('converthands.png') no-repeat;
+   }
+
+   .btnhands:active{
+   	background: url('converthands.png') no-repeat;
+   }
+
+.btn:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#54C2FF), to(#3e779d));
+   background: -webkit-linear-gradient(top, #54C2FF, #3e779d);
+   background: -moz-linear-gradient(top, #54C2FF, #3e779d);
+   background: -ms-linear-gradient(top, #54C2FF, #3e779d);
+   background: -o-linear-gradient(top, #54C2FF, #3e779d);
+   background-image: -ms-linear-gradient(top, #54C2FF 0%, #3e779d 100%);
+   color: #fff;
+   }
+.btn:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+
+   .epoch {
+
+    border: 1 px solid;
+    background-color: #D3D3D3;
+    padding: 5px;
+
+   }
